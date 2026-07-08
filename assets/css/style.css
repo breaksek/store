@@ -1,0 +1,23 @@
+/* Custom Scrollbar bergaya Cyberpunk */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #111827; /* Gray 900 */
+}
+::-webkit-scrollbar-thumb {
+    background: #2563EB; /* Blue 600 */
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #1D4ED8; /* Blue 700 */
+}
+
+/* Efek Card Game agar bercahaya saat disentuh kursor */
+.game-card {
+    transition: all 0.3s ease-in-out;
+}
+.game-card:hover {
+    box-shadow: 0 0 15px rgba(37, 99, 235, 0.6);
+    border-color: #2563EB;
+}
